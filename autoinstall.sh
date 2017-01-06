@@ -15,4 +15,15 @@ git clone https://aur.archlinux.org/yaourt.git
 cd yaourt
 makepkg -si MAKEPKG
 
+cd ..
+
+echo "
+Installation done!
+Cleaning up!
+
+"
+
+rm -rf package-query/
+rm -rf yaourt/
+
 echo "ready."
